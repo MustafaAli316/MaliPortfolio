@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Mali Digital</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">--->
+    <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo1.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle-xmark"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">PROJECTS</a></li>
+            <!-- <li><a href="course.html">OFFER</a></li>
+            <li><a href="blog.html">BLOG</a></li>   -->
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <i class="fa fa-bars"></i>
+        <!---<i class="fa-solid fa-bars"></i>-->
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-------Contact Us----->
+
+    <section class="location">
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.0434440410786!2d-1.1385853841893745!3d52.604985579830455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48776729c0ffee93%3A0xc083e23d2fa38746!2s62%20Bloomfield%20Rd%2C%20Leicester%20LE2%206LA!5e0!3m2!1sen!2suk!4v1675184549718!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.581441141358!2d-1.8904364841937724!3d52.48671377980792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc9ae4f2e4b3%3A0x9a670ba18e08a084!2sAston%20University!5e0!3m2!1sen!2suk!4v1677060708726!5m2!1sen!2suk"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <!--<i class="fa-solid fa-house"></i>-->
+            <span>
+              <h5>LOCATION</h5>
+              <p>
+                Aston St <br />
+                B4 7ET
+              </p>
+              <p>Birmingham, UK</p>
+            </span>
+          </div>
+          <div>
+            <!--<i class="fa-solid fa-phone"></i> -->
+            <span>
+              <h5>Feel free to contact us for any queries</h5>
+              <i class="fa-solid fa-phone"></i>
+              <p>+44 (0) 000 000 00000</p>
+              <i class="fa-regular fa-envelope"></i>
+              <p>220083795@aston.ac.uk</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-timer"></i>
+            <span>
+              <h5>OPEN HOURS</h5>
+              <p>
+                Thursday 10:00 - 14:00 <br />
+                Friday 10:00 - 14:00
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+      <!-- <div class="contact-col">
+                
+    <form action="form-handler.php" method="post">
+                    
+        <input type="text"  name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter Email Adress" required>
+        <input type="text" placeholder="Enter your enquiry" required>
+        <textarea rows="8"  name="message" placeholder="Enter your enquiry" required></textarea>
+        <button type="submit"  class="hero-btn purple-btn"> Send Message</button>
+                     
+    </form>
+                
+                
+</div> -->
+
+      <!-- Form -->
+
+
+      <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Name</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+
+
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="proposal">Project Proposal</label>
+                <input id="project" name="project" type="text" />
+                <div class="error"></div>
+              </div>
+
+            <div class="input-control">
+                <label for="Proposal">Project Start :</label>
+                <input type="date" id="date" name="date" />
+              </div>
+
+            <div class="input-control">
+                <label for="Proposal">Project End :</label>
+                <input type="date" id="date2" name="date2" />
+              </div>
+
+              <!-- butn -->
+              
+            <button type="submit" class="butn" onclick="openPopup()">Sign Up</button>
+
+            <div class="popup" id="popup">
+                <img src="tick1" alt="">
+                    <h2>Thank You!</h2>
+                    <p>Your Name,
+                        Email, Password and Proposal has been registered.
+                        <a href="mailto:220083795@aston.ac.uk">Send enquiry</a>
+                    </p>
+                    <button type="button" class="bt2" onclick="closePopup()">OK</button>
+            </div>
+            
+
+
+        </form>
+    </div>
+
+      <!-- Figure out how to make command for next date only -->
+    
+
+    <!-----Course----->
+    <!-------Projects----->
+    <!-------FACILITIES----->
+    <!-------Testemonials----->
+    <!------- Call to Action----->
+
+    <!------- Footer----->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Description</p>
+      <div class="icons">
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      <p>
+        Made with <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> by
+        Mustafa Ali
+      </p>
+    </section>
+
+    <!-------JavaScript for toggle Menu----->
+    <script>
+      var navLinks = document.getElementsById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>
